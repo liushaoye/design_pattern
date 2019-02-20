@@ -36,12 +36,12 @@ public class Course {
     /**
      * 课程文章
      */
-    private String courseArtcle;
+    private String courseArticle;
 
     /**
      * 问答
      */
-    private String courseQuesionAndAnswer;
+    private String courseQuestionAndAnswer;
 
     @Override
     public String toString() {
@@ -49,8 +49,8 @@ public class Course {
                 "courseName='" + courseName + '\'' +
                 ", coursePowerPoint='" + coursePowerPoint + '\'' +
                 ", courseVideo='" + courseVideo + '\'' +
-                ", courseArtcle='" + courseArtcle + '\'' +
-                ", courseQuesionAndAnswer='" + courseQuesionAndAnswer + '\'' +
+                ", courseArticle='" + courseArticle + '\'' +
+                ", courseQuestionAndAnswer='" + courseQuestionAndAnswer + '\'' +
                 '}';
     }
 }
