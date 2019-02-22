@@ -1,4 +1,4 @@
-package com.google.designpattern.singleton.a$baseversion;
+package com.google.designpattern.singleton.lazypattern.a$baseversion;
 
 import org.springframework.util.StringUtils;
 

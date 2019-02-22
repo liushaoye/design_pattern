@@ -1,7 +1,7 @@
-package com.google.designpattern.singleton.a$baseversion;
+package com.google.designpattern.singleton.lazypattern.a$baseversion;
 
-import com.google.designpattern.singleton.b$versiontwo.T2;
-import com.google.designpattern.singleton.c$versionthree.T3;
+import com.google.designpattern.singleton.lazypattern.b$versiontwo.T2;
+import com.google.designpattern.singleton.lazypattern.c$versionthree.T3;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.Test;
 import org.junit.runner.RunWith;

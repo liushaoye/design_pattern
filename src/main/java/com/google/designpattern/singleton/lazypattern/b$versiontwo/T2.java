@@ -1,4 +1,4 @@
-package com.google.designpattern.singleton.a$baseversion;
+package com.google.designpattern.singleton.lazypattern.b$versiontwo;
 
 import lombok.extern.slf4j.Slf4j;
 
@@ -17,13 +17,11 @@ import lombok.extern.slf4j.Slf4j;
  *******************************/
 
 @Slf4j
-public class T implements Runnable {
+public class T2 implements Runnable {
 
     @Override
     public void run() {
-        LazySingleton lazySingleton = LazySingleton.getLazySingletonInstance();
-
-        log.info(Thread.currentThread().getName()+" "+lazySingleton);
-
+        LazyDoubleCheckSingleton lazyDoubleCheckSingleton = LazyDoubleCheckSingleton.getLazyDoubleCheckSingletonInstance();
+        log.info(Thread.currentThread().getName()+" "+lazyDoubleCheckSingleton);
     }
 }

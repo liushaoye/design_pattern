@@ -1,6 +1,5 @@
-package com.google.designpattern.singleton.c$versionthree;
+package com.google.designpattern.singleton.lazypattern.c$versionthree;
 
-import com.google.designpattern.singleton.b$versiontwo.LazyDoubleCheckSingleton;
 import lombok.extern.slf4j.Slf4j;
 
 /******************************

@@ -1,4 +1,4 @@
-package com.google.designpattern.singleton.c$versionthree;
+package com.google.designpattern.singleton.lazypattern.c$versionthree;
 
 /******************************
  * @author : liuyang
