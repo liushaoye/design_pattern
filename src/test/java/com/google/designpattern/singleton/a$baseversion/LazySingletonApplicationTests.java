@@ -1,6 +1,7 @@
 package com.google.designpattern.singleton.a$baseversion;
 
 import com.google.designpattern.singleton.b$versiontwo.T2;
+import com.google.designpattern.singleton.c$versionthree.T3;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -43,6 +44,19 @@ public class LazySingletonApplicationTests {
     public void testDoubleSingle(){
         Thread thread1 = new Thread(new T2());
         Thread thread2 = new Thread(new T2());
+
+        thread1.start();
+        thread2.start();
+        log.info("*************结束*************");
+    }
+
+    /**
+     * 静态内部
+     */
+    @Test
+    public void testStaticInnerClassSingleton(){
+        Thread thread1 = new Thread(new T3());
+        Thread thread2 = new Thread(new T3());
 
         thread1.start();
         thread2.start();
