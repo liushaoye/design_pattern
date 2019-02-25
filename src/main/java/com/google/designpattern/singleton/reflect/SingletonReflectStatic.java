@@ -1,4 +1,6 @@
-package com.google.designpattern.singleton.hungrypattern.b$baseversiontwo;
+package com.google.designpattern.singleton.reflect;
+
+import org.springframework.util.StringUtils;
 
 /******************************
  * @author : liuyang
@@ -14,16 +16,20 @@ package com.google.designpattern.singleton.hungrypattern.b$baseversiontwo;
  *
  *******************************/
 
-public class HungrySingletonStatic{
+public class SingletonReflectStatic {
 
-    private final static HungrySingletonStatic hungrySingletonStatic;
+    private final static SingletonReflectStatic hungrySingletonStatic;
 
 
     static {
-        hungrySingletonStatic = new HungrySingletonStatic();
+        hungrySingletonStatic = new SingletonReflectStatic();
     }
 
-    private HungrySingletonStatic() {
+    private SingletonReflectStatic() {
+
+        if (StringUtils.isEmpty(hungrySingletonStatic)) {
+            throw new RuntimeException("单例构造器,禁止反射调用");
+        }
     }
 
     /**
@@ -32,7 +38,7 @@ public class HungrySingletonStatic{
      *
      * @return
      */
-    public static HungrySingletonStatic getHungrySingletonStaticInstance() {
+    public static SingletonReflectStatic getHungrySingletonStaticInstance() {
         return hungrySingletonStatic;
     }
 
