@@ -23,6 +23,9 @@ public class Thermo {
 
     private String describe;
 
+    public Thermo() {
+    }
+
     public Thermo(String name, String describe) {
         this.name = name;
         this.describe = describe;

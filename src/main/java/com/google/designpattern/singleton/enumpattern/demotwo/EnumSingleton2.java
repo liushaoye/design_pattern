@@ -11,6 +11,8 @@ package com.google.designpattern.singleton.enumpattern.demotwo;
  * @description :
  *
  *
+ *   推荐使用枚举方式实现
+ *
  *
  *******************************/
 
