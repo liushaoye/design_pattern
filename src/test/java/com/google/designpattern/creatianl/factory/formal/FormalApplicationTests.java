@@ -1,4 +1,4 @@
-package com.google.designpattern.creational.formal;
+package com.google.designpattern.creatianl.factory.formal;
 
 import com.google.designpattern.creatianl.factory.b$formal.AbstractVideo;
 import com.google.designpattern.creatianl.factory.b$formal.JavaVideo;

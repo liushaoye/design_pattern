@@ -1,4 +1,4 @@
-package com.google.designpattern.creational.simplefactory;
+package com.google.designpattern.creatianl.factory.simplefactory;
 
 import com.google.designpattern.creatianl.factory.b$formal.AbstractVideo;
 import com.google.designpattern.creatianl.factory.b$formal.PythonVideo;

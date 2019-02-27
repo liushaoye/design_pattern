@@ -1,4 +1,4 @@
-package com.google.designpattern.creational.abstractfactory;
+package com.google.designpattern.creatianl.factory.abstractfactory;
 
 import com.google.designpattern.creatianl.factory.d$abstractfactory.base.AbstractArticle;
 import com.google.designpattern.creatianl.factory.d$abstractfactory.factory.CourseFactory;

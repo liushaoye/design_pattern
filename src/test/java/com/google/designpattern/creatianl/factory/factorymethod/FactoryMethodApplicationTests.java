@@ -1,4 +1,4 @@
-package com.google.designpattern.creational.factorymethod;
+package com.google.designpattern.creatianl.factory.factorymethod;
 
 import com.google.designpattern.creatianl.factory.c$factorymethod.AbstractVideoFactory;
 import com.google.designpattern.creatianl.factory.c$factorymethod.FeVideoFactory;

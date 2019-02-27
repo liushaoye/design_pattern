@@ -1,4 +1,4 @@
-package com.google.designpattern.creational.company;
+package com.google.designpattern.creatianl.factory.company;
 
 import com.google.designpattern.creatianl.factory.b$personal.company.brand.AbstractThermo;
 import com.google.designpattern.creatianl.factory.b$personal.company.factory.AbstractThermoFactory;
