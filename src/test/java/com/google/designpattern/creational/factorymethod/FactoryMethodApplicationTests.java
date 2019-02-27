@@ -1,10 +1,10 @@
 package com.google.designpattern.creational.factorymethod;
 
-import com.google.designpattern.creatianl.c$factorymethod.AbstractVideoFactory;
-import com.google.designpattern.creatianl.c$factorymethod.FeVideoFactory;
-import com.google.designpattern.creatianl.c$factorymethod.JavaVideoFactory;
-import com.google.designpattern.creatianl.c$factorymethod.PythonVideoFactory;
-import com.google.designpattern.creatianl.b$formal.AbstractVideo;
+import com.google.designpattern.creatianl.factory.c$factorymethod.AbstractVideoFactory;
+import com.google.designpattern.creatianl.factory.c$factorymethod.FeVideoFactory;
+import com.google.designpattern.creatianl.factory.c$factorymethod.JavaVideoFactory;
+import com.google.designpattern.creatianl.factory.c$factorymethod.PythonVideoFactory;
+import com.google.designpattern.creatianl.factory.b$formal.AbstractVideo;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.boot.test.context.SpringBootTest;

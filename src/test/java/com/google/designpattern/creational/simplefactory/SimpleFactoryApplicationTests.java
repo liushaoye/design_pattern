@@ -1,8 +1,8 @@
 package com.google.designpattern.creational.simplefactory;
 
-import com.google.designpattern.creatianl.b$formal.AbstractVideo;
-import com.google.designpattern.creatianl.b$formal.PythonVideo;
-import com.google.designpattern.creatianl.a$simplefactory.VideoFactory;
+import com.google.designpattern.creatianl.factory.b$formal.AbstractVideo;
+import com.google.designpattern.creatianl.factory.b$formal.PythonVideo;
+import com.google.designpattern.creatianl.factory.a$simplefactory.VideoFactory;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.boot.test.context.SpringBootTest;
