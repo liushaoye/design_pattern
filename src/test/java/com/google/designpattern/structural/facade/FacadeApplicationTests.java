@@ -1,4 +1,4 @@
-package com.google.designpattern.structural;
+package com.google.designpattern.structural.facade;
 
 import com.google.designpattern.structural.facade.demoone.bigservice.GiftExchange;
 import com.google.designpattern.structural.facade.demoone.bigservice.GiftExchangeFacade;

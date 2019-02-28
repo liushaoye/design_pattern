@@ -4,7 +4,11 @@ import com.google.designpattern.structural.facade.demoone.entity.PointsGift;
 import com.google.designpattern.structural.facade.demoone.service.PointPaymentService;
 import com.google.designpattern.structural.facade.demoone.service.QualifyService;
 import com.google.designpattern.structural.facade.demoone.service.ShippingService;
+import lombok.experimental.var;
 import lombok.extern.slf4j.Slf4j;
+import lombok.val;
+
+import java.util.HashMap;
 
 /******************************
  * @author : liuyang
