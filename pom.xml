@@ -209,11 +209,11 @@
 
         <!-- 二期新增的 -->
 
-        <!--<dependency>-->
-            <!--<groupId>redis.clients</groupId>-->
-            <!--<artifactId>jedis</artifactId>-->
-            <!--<version>2.6.0</version>-->
-        <!--</dependency>-->
+        <dependency>
+            <groupId>redis.clients</groupId>
+            <artifactId>jedis</artifactId>
+            <version>2.6.0</version>
+        </dependency>
 
         <dependency>
             <groupId>org.projectlombok</groupId>
@@ -222,17 +222,17 @@
         </dependency>
 
         <!-- spring session 单点登录 -->
-        <!--<dependency>-->
-            <!--<groupId>org.springframework.session</groupId>-->
-            <!--<artifactId>spring-session-data-redis</artifactId>-->
-            <!--<version>1.2.0.RELEASE</version>-->
-        <!--</dependency>-->
+        <dependency>
+            <groupId>org.springframework.session</groupId>
+            <artifactId>spring-session-data-redis</artifactId>
+            <version>1.2.0.RELEASE</version>
+        </dependency>
 
-        <!--<dependency>-->
-            <!--<groupId>org.redisson</groupId>-->
-            <!--<artifactId>redisson</artifactId>-->
-            <!--<version>2.9.0</version>-->
-        <!--</dependency>-->
+        <dependency>
+            <groupId>org.redisson</groupId>
+            <artifactId>redisson</artifactId>
+            <version>2.9.0</version>
+        </dependency>
 
         <dependency>
             <groupId>com.fasterxml.jackson.dataformat</groupId>
